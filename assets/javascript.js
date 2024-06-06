@@ -16,9 +16,9 @@ $(window).scroll(function () {
 
 const FunVisible = () => {
   if (window.pageYOffset > 250) {
-    $(".header2").addClass("is-sticky");
+    $("header").addClass("is-sticky");
   } else {
-    $(".header2").removeClass("is-sticky");
+    $("header").removeClass("is-sticky");
   }
 };
 window.addEventListener("scroll", FunVisible);
